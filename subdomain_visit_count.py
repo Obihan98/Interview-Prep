@@ -6,7 +6,7 @@
 # Given an array of count-paired domains cpdomains, return an array of the count-paired domains of each subdomain in the input. You may return the answer in any order.
 
 class Solution:
-    def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
+    def subdomainVisits(self, cpdomains: list[str]) -> list[str]:
         answer = {}
         for domain in cpdomains:
             count, domain = domain.split()
